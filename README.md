@@ -108,7 +108,13 @@ Ruta Swagger: [Swagger](http://localhost:8089/fonYou/api/swagger-ui.html#/)
 http://localhost:8089/wilsonevs/api/swagger-ui.html#/
 
 ## API Referencía
-###Se recomienda primero consumir y insertar las preguntas
+##Nota 
+* Primero se insertar las preguntas
+
+* Segundo en el servicio del estudiante ingresa los datos y las preguntas
+
+
+## GUIA DEL CONSUUMO
 
 #### Get - Busqueda completa
 
