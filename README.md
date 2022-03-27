@@ -88,13 +88,21 @@ en la carpeta configuración del proyecto, aqui es donde van a ingresar la ruta
 donde se va a guardar el archivo`db.properties`, ya que es recomendable que ningún 
 tercero tenga acceso a el.
 
+Recuerde que en el archivo `db.properties` es donde debes realizar la configuración 
+de su base de datos.
+
 ```
 @PropertySource("file:/xampp/htdocs/Curso/wilsonevs/configuracion/db.properties")
 ```
 
 ## Acceder al Swagger
-Es un software de código abierto que nos permitira poder diseñar, construir, 
-documentar, y utilizar servicios web RESTful.
+Se implemento para que pudiera vizualizar los Json y poderlos consumir.
+
+
+## Query base de datos
+Se dejo dentro de la carpeta `query` que se encuentra dentro del proyecto. en el cual
+contiene dos archivos `sql.sql` la creación de la base de datos
+y `insertarDatos.json` las preguntas en Json. 
 
 Ruta Swagger: [Swagger](http://localhost:8089/fonYou/api/swagger-ui.html#/)
 http://localhost:8089/wilsonevs/api/swagger-ui.html#/

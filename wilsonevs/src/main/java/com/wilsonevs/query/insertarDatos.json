@@ -1,0 +1,24 @@
+
+
+#Primer pregunta
+{
+  "pregunta": "La declaración de importación de clases ajenas en Java va denotada por la línea “import – ruta del paquete - - nombre de la clase –“. Con base a ello, si se desea utilizar todas las clases del paquete java.util, ¿la sintaxis correcta para importar el paquete es",
+  "opcion1": "import java.utils.*;",
+  "opcion2": "mport java.util.*",
+  "opcion3": "import java.util.*;",
+  "opcion4": "Ninguna de las respuestas es correcta",
+  "respuesta": "c",
+  "valor_nota": "50"
+}
+
+#Segunda pregunta
+
+{
+  "pregunta": "En Java, ¿Qué diferencia hay entre una interfaz y una clase abstracta",
+  "opcion1": "La interfaz se implementa en una clase, mientras que la clase abstracta se hereda en una clase",
+  "opcion2": "La clase abstracta requiere por lo menos un método abstracto, mientras que la interfaz no requiere métodos abstractos",
+  "opcion3": "Ambos conceptos son recíprocos (es decir, no se puede implementar una interfaz si la clase es abstracta y no se puede extender de una clase abstracta si la clase implementa una interfaz)",
+  "opcion4": "Todas las respuestas son correctas",
+  "respuesta": "a",
+  "valor_nota": "50"
+}
