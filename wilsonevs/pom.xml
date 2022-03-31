@@ -20,6 +20,13 @@
 	</description>
 	<properties>
 		<java.version>11</java.version>
+		<c3p0.version>0.9.1.2</c3p0.version>
+		<jaxws-api.version>2.3.1</jaxws-api.version>
+		<starter-tomcat.version>2.6.3</starter-tomcat.version>
+		<h2database.version>2.1.210</h2database.version>
+		<spring-boot-devtools.version>2.6.3</spring-boot-devtools.version>
+		<springfox-swagger2.version>2.9.2</springfox-swagger2.version>
+		<springfox-swagger-ui.version>2.9.2</springfox-swagger-ui.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -54,44 +61,44 @@
 		<dependency>
 			<groupId>c3p0</groupId>
 			<artifactId>c3p0</artifactId>
-			<version>0.9.1.2</version>
+			<version>${c3p0.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.xml.ws/jaxws-api -->
 		<dependency>
 			<groupId>javax.xml.ws</groupId>
 			<artifactId>jaxws-api</artifactId>
-			<version>2.3.1</version>
+			<version>${jaxws-api.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-tomcat -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<version>2.6.3</version>
+			<version>${starter-tomcat.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
-			<version>2.1.210</version>
+			<version>${h2database.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
-			<version>2.6.3</version>
+			<version>${spring-boot-devtools.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
-			<version>2.9.2</version>
+			<version>${springfox-swagger2.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
-			<version>2.9.2</version>
+			<version>${springfox-swagger-ui.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
