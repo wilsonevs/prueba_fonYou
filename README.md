@@ -57,22 +57,6 @@ Sql, NoSql y despliegue en tomcat.
 - [@Linkedin/wilsonevs](https://www.linkedin.com/in/wilsonvalencs/)
 - [@Torre/wilsonevs](https://torre.co/wilson_evs)
 
-
-## CRUD
-CRUD hace referencia a un acrónimo en el que se reúnen las primeras letras de las cuatro operaciones fundamentales de aplicaciones persistentes en sistemas de bases de datos:
-
-* Create (Crear registros)
-* Read (Leer registros)
-* Update (Actualizar registros)
-* Delete (Borrar registros)
-|CRUD-Operación | SQL    | RESTful      |
-| ------------- | -------| ------------ |
-| leer          | SELECT | GET          |
-| Crear         | INSERT | POST, PUT    |
-| Actualizar    | UPDATE | PUT          |
-| Borrar        | DELETE | SELECT       |
-
-
 ## Instalación
 
 Dentro de la carpeta `Configuracion` se encuentra un archivo llamado `db.properties` debe 
