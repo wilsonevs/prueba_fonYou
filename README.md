@@ -114,7 +114,7 @@ http://localhost:8089/wilsonevs/api/swagger-ui.html#/
 * Segundo en el servicio del estudiante ingresa los datos y las preguntas
 
 
-## GUIA DEL CONSUUMO
+## GUIA DEL CONSUMO
 
 #### Get - Busqueda completa
 
